@@ -1,0 +1,111 @@
+<h1><%= image_tag("logo.png", :alt => "Itinerium") %> -User detail</h1>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Usertype:</strong>
+  <%= @user.userType %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Web:</strong>
+  <%= @user.web %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @user.phoneNumber %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @user.address %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @user.photo %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @user.bio %>
+</p>
+
+<p>
+  <strong>Balance:</strong>
+  <%= @user.balance %>
+</p>
+
+<p>
+  <strong>Login:</strong>
+  <%= @user.login %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @user.password %>
+</p>
+
+<p>
+  <strong>Date of birth:</strong>
+  <%= @user.dateBirth %>
+</p>
+
+<p>
+  <strong>Receive Newsletter:</strong>
+  <%= @user.receiveNewsletter %>
+</p>
+
+<p>
+  <strong>Tutorial:</strong>
+  <%= @user.tutorial %>
+</p>
+
+<p>
+  <strong>Tagline:</strong>
+  <%= @user.tagline %>
+</p>
+
+<p>
+  <strong>Itinerarystatus:</strong>
+  <%= @user.ItineraryStatus %>
+</p>
+
+<p>
+  <strong>Date created:</strong>
+  <%= @user.dateCreated %>
+</p>
+
+<p>
+  <strong>Itineraries requested:</strong>
+  0
+</p>
+
+<p>
+  <strong>Itineraries accepted:</strong>
+  0
+</p>
+
+<p>
+  <strong>Itinerariescompleted:</strong>
+  0
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @user.status %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  userType: MyString
+  name: MyString
+  email: MyString
+  web: MyString
+  phoneNumber: MyString
+  address: MyText
+  photo: MyString
+  bio: MyText
+  balance: MyString
+  login: MyString
+  password: MyString
+  dateBirth: 2013-09-05
+  receiveNewsletter: 1
+  tutorial: 1
+  tagline: MyText
+  ItineraryStatus: 1
+  dateCreated: 2013-09-05 06:36:59
+  itinerariesRequested: 1
+  itinerariesAccepted: 1
+  itinerariesCompleted: 1
+  status: MyString
+
+two:
+  userType: MyString
+  name: MyString
+  email: MyString
+  web: MyString
+  phoneNumber: MyString
+  address: MyText
+  photo: MyString
+  bio: MyText
+  balance: MyString
+  login: MyString
+  password: MyString
+  dateBirth: 2013-09-05
+  receiveNewsletter: 1
+  tutorial: 1
+  tagline: MyText
+  ItineraryStatus: 1
+  dateCreated: 2013-09-05 06:36:59
+  itinerariesRequested: 1
+  itinerariesAccepted: 1
+  itinerariesCompleted: 1
+  status: MyString
